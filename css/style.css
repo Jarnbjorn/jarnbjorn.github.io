@@ -1,4 +1,10 @@
 h1 {
-color:orange;
-text-align:center;
+	color:orangered;
+	text-align:center;
+}
+
+.navigation {
+  padding:10px;
+  color:orange;
+  border:orange groove 10px;
 }
