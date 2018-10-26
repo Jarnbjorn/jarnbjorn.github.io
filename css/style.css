@@ -4,7 +4,6 @@ h1 {
 }
 
 .navigation {
-  padding:10px;
   color:orange;
-  border:orange groove 10px;
+  border:orange 10px;
 }
