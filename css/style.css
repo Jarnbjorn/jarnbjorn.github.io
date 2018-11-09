@@ -13,6 +13,9 @@ h1 {
 /* Psuedo Classes ----------------- */
 
 /* Main Styles ----------------- */
+.main-header {
+  background: url(/images/bear.jpg) no-repeat center;
+}
 
 /* Layout Styles ----------------- */
 
