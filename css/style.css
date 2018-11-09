@@ -31,12 +31,14 @@ a:visited {
 /* Main Styles ----------------- */
 .main-header {
   height: 500px;
+  margin-top: 20px;
   background: linear-gradient(315deg, #dcd0c0, transparent 60%), 
   url(/images/bear.jpg) no-repeat center / cover;
 }
 .subtitle {
   border-bottom: #dcd0c0 2px solid;
   color: #c0b283;
+  padding-top: 15px;
   text-align: center;
   font: 1.65em/1.65 'Helvetica', sans-serif;
 }
