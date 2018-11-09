@@ -42,6 +42,11 @@ a:visited {
   padding-bottom: 15px;
   font: 1.5em/1.65 'Helvetica', sans-serif;
 }
+.main-header,
+.main-footer,
+main {
+  text-align: center;
+}
 /* Layout Styles ----------------- */
 .arrow {
   width: 50px;
