@@ -62,8 +62,8 @@ main {
   display: inline-block;
   background-color: #373737;
 }
-/* .navi li {
-  float: left; */
+.navi li {
+  float: left;
 }
 .navi a {
   display: block;
