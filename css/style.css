@@ -9,7 +9,8 @@ body {
 }
 h1 {
 	color: #c0b283;
-	text-align:center;
+  text-align:center;
+  font: 700 6.25em/1.5 'Helvetica', sans-serif;
 }
 
 /* .navigation {
@@ -18,13 +19,13 @@ h1 {
 /* Psuedo Classes ----------------- */
 a:link {
   text-decoration: none;
-  color: #dcd0c0;
-}
-a:active {
   color: #c0b283;
 }
-a:visited {
+a:active {
   color: #dcd0c0;
+}
+a:visited {
+  color: #c0b283;
 }
 
 /* Main Styles ----------------- */
@@ -36,6 +37,8 @@ a:visited {
 }
 .subtitle {
   border-bottom: #dcd0c0 5px solid;
+  color: #c0b283;
+  text-align: center;
 }
 /* Layout Styles ----------------- */
 .arrow {
