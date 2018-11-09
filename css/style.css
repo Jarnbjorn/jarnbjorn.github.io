@@ -36,9 +36,9 @@ a:visited {
   url(/images/bear.jpg) no-repeat center / cover;
 }
 .subtitle {
-  border-bottom: #dcd0c0 5px solid;
+  border-bottom: #dcd0c0 2px solid;
   color: #c0b283;
-  align-content: center;
+  text-align: center;
   padding-bottom: 15px;
   font: 1.5em/1.65 'Helvetica', sans-serif;
 }
