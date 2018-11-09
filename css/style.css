@@ -28,12 +28,15 @@ a:visited {
   background: linear-gradient(#ff8000, #02475B, transparent 85%);
   background: url(/images/bear.jpg) no-repeat center;
 }
+.subtitle {
+  border-bottom: #ff8000 8px solid;
+}
+/* Layout Styles ----------------- */
 .arrow {
   width: 50px;
   margin-top: 140px;
   display: none;
 }
-/* Layout Styles ----------------- */
 
 /* Floated Collumns ----------------- */
 
