@@ -32,6 +32,7 @@ a:visited {
 .main-header {
   height: 500px;
   padding-top: 20px;
+  margin-top: 0;
   background: linear-gradient(315deg, #dcd0c0, transparent 60%), 
   url(/images/bear.jpg) no-repeat center / cover;
 }
