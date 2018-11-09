@@ -33,12 +33,13 @@ a:visited {
   height: 500px;
   padding-top: 50px;
   background: linear-gradient(315deg, #c0b283, transparent 60%), 
-  url(/images/bear.jpg) no-repeat bottom;
+  url(/images/bear.jpg) no-repeat center / cover;
 }
 .subtitle {
   border-bottom: #dcd0c0 5px solid;
   color: #c0b283;
-  text-align: center;
+  align-content: center;
+  font: 2em/1.65 'Helvetica', sans-serif;
 }
 /* Layout Styles ----------------- */
 .arrow {
