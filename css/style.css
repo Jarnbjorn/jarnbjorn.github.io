@@ -59,14 +59,15 @@ main {
   list-style-type: none;
   margin: 0;
   padding: 0;
+  display: inline-block;
+  background-color: #373737;
 }
-.navi li {
-  float: center;
+/* .navi li {
+  float: left; */
 }
 .navi a {
   display: block;
   padding: 8px;
-  background-color: #373737;
 }
 /* Floated Collumns ----------------- */
 
