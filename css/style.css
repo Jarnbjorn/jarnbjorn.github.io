@@ -39,8 +39,7 @@ a:visited {
   border-bottom: #dcd0c0 2px solid;
   color: #c0b283;
   text-align: center;
-  padding-bottom: 15px;
-  font: 1.5em/1.65 'Helvetica', sans-serif;
+  font: 1.65em/1.65 'Helvetica', sans-serif;
 }
 .main-header,
 .main-footer,
@@ -53,7 +52,9 @@ main {
   margin-top: 140px;
   display: none;
 }
-
+.navi {
+  list-style-type: none;
+}
 /* Floated Collumns ----------------- */
 
 /* Float Clearfix ----------------- */
