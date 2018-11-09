@@ -66,12 +66,9 @@ main {
   float: left;
   border-right: 1px solid #dcd0c0;
 }
-.nav li:last-child {
-  border-right: none;
-}
 .navi a {
   display: block;
-  padding: 8px;
+  padding; 8px;
 }
 /* Floated Collumns ----------------- */
 
