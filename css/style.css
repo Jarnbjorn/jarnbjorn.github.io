@@ -23,9 +23,14 @@ a:visited {
 
 /* Main Styles ----------------- */
 .main-header {
+  height: 900px;
+  padding-top: 50px;
   background: url(/images/bear.jpg) no-repeat center;
 }
-
+.arrow {
+  width: 50px;
+  margin-top: 140px;
+}
 /* Layout Styles ----------------- */
 
 /* Floated Collumns ----------------- */
