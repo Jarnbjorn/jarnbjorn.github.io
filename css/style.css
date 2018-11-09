@@ -11,6 +11,15 @@ h1 {
 }
 
 /* Psuedo Classes ----------------- */
+a:link {
+  text-decoration: none;
+}
+a:active {
+  color: orangered;
+}
+a:visited {
+  color: slateblue;
+}
 
 /* Main Styles ----------------- */
 .main-header {
