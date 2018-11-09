@@ -1,6 +1,10 @@
 /* Web Fonts ----------------- */
 
 /* Base Styles ----------------- */
+body {
+  color: #02475B;
+  font: 1em/1.5 'Helvetica', sans-serif;
+}
 h1 {
 	color:orangered;
 	text-align:center;
