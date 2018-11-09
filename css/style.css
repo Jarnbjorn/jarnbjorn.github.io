@@ -23,7 +23,7 @@ a:visited {
 
 /* Main Styles ----------------- */
 .main-header {
-  height: 900px;
+  height: 700px;
   padding-top: 50px;
   background: linear-gradient(#ff8000, #02475B, transparent 85%);
   background: url(/images/bear.jpg) no-repeat center;
