@@ -2,7 +2,7 @@
 
 /* Base Styles ----------------- */
 body {
-  color: #02475B;
+  background-color: #02475B;
   font: 1em/1.5 'Helvetica', sans-serif;
 }
 h1 {
@@ -27,13 +27,13 @@ a:visited {
 
 /* Main Styles ----------------- */
 .main-header {
-  height: 700px;
+  height: 500px;
   padding-top: 50px;
-  background: linear-gradient(40deg, #ff8000, #02475B, transparent 95%), 
+  background: linear-gradient(40deg, #ff8000, transparent 95%), 
   url(/images/bear.jpg) no-repeat center;
 }
 .subtitle {
-  border-bottom: #ff8000 8px solid;
+  border-bottom: #ff8000 5px solid;
 }
 /* Layout Styles ----------------- */
 .arrow {
