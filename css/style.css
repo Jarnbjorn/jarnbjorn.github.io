@@ -1,3 +1,4 @@
+/* palette: paper:#f4f4f4, pale gold:#c0b283, silk:#dcd0c0, charcoal:#373737 */
 /* Web Fonts ----------------- */
 
 /* Base Styles ----------------- */
@@ -7,23 +8,23 @@ body {
   font: 1em/1.5 'Helvetica', sans-serif;
 }
 h1 {
-	color: #004f65;
+	color: #c0b283;
 	text-align:center;
 }
 
-.navigation {
-  color:orange;
-}
+/* .navigation {
+} */
 
 /* Psuedo Classes ----------------- */
 a:link {
   text-decoration: none;
+  color: #dcd0c0;
 }
 a:active {
-  color: orangered;
+  color: #c0b283;
 }
 a:visited {
-  color: slateblue;
+  color: #dcd0c0;
 }
 
 /* Main Styles ----------------- */
