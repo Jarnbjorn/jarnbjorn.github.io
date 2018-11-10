@@ -1,4 +1,6 @@
 /* palette: paper:#f4f4f4, pale gold:#c0b283, silk:#dcd0c0, charcoal:#373737 */
+
+/* figure out how to truely center the title and subtitle within the .main-header and figure out the nav bar/make it responsive */
 * {
   box-sizing: border-box;
 }
@@ -71,6 +73,10 @@ main {
 .navi a {
   display: block;
   padding: 8px;
+}
+.navi a:hover {
+  background-color: #dcd0c0;
+  color: #373737;
 }
 /* Floated Collumns ----------------- */
 
