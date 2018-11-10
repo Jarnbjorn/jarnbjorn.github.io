@@ -78,7 +78,7 @@ main {
   background-color: #dcd0c0;
   color: #373737;
 }
-.navi:after {
+.main-header:after {
   content:'';
   clear: both;
   display: table;
