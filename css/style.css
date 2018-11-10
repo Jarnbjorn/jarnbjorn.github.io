@@ -78,6 +78,11 @@ main {
   background-color: #dcd0c0;
   color: #373737;
 }
+.navi:after {
+  content:'';
+  clear: both;
+  display: table;
+}
 /* Floated Collumns ----------------- */
 
 /* Float Clearfix ----------------- */
