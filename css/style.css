@@ -1,4 +1,7 @@
 /* palette: paper:#f4f4f4, pale gold:#c0b283, silk:#dcd0c0, charcoal:#373737 */
+* {
+  box-sizing: border-box;
+}
 /* Web Fonts ----------------- */
 
 /* Base Styles ----------------- */
@@ -64,7 +67,6 @@ main {
 }
 .navi li {
   float: left;
-  border-right: 1px solid #dcd0c0;
 }
 .navi a {
   display: block;
