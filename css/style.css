@@ -61,7 +61,39 @@ main {
   display: none;
 }
 /* navigation menu --------------- */
+nav {
+  width: 100%;
+  float: left;
+  margin: 0 0 1em 0;
+  padding: 0;
+  background-color: #373737;
+  border-bottom: 1px solid #dcd0c0;
+}
 .navi {
+  list-style: none;
+  width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+.navi li {
+  float: left;
+}
+.navi li a {
+  display: block;
+  padding: 8px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #c0b283;
+  border-right: 1px solid #dcd0c0;
+}
+.navi li:first-child a {
+  border-left: 1px solid #dcd0c0;
+}
+.navi li a:hover {
+  color: #373737;
+  background-color: #dcd0c0;
+}
+/* .navi {
   list-style-type: none;
   padding: 0;
   display: inline-block;
@@ -82,7 +114,7 @@ main {
   content:'';
   clear: both;
   display: table;
-}
+} */
 /* Floated Collumns ----------------- */
 
 /* Float Clearfix ----------------- */
