@@ -15,6 +15,7 @@ body {
 h1 {
 	color: #c0b283;
   text-align: center;
+  padding-bottom: 126px;
   margin: auto;
   font: 700 6.25em/1.5 'Helvetica', sans-serif;
 }
@@ -62,7 +63,6 @@ main {
 /* navigation menu --------------- */
 .navi {
   list-style-type: none;
-  margin: 142px;
   padding: 0;
   display: inline-block;
   background-color: #373737;
@@ -72,7 +72,7 @@ main {
 }
 .navi a {
   display: block;
-  padding: 8px;
+  padding: 10px 12px;
 }
 .navi a:hover {
   background-color: #dcd0c0;
