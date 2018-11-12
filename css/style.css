@@ -31,7 +31,7 @@ a:active {
 a:visited {
   color: #c0b283;
 }
-a:i {
+a i {
   font-size: 50px;
 }
 
