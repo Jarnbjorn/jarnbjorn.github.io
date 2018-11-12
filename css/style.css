@@ -59,7 +59,14 @@ main {
   width: 450px;
   text-align: center;
   margin: auto;
+  border-bottom: 1px solid #c0b283;
   background: url(/images/mountains.jpg) no-repeat center/cover;
+}
+.contact p {
+  padding-bottom: 20px;
+}
+.fa-envelope {
+  padding-right: 20px;
 }
 /* Layout Styles ----------------- */
 .arrow {
