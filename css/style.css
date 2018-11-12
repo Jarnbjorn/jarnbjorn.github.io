@@ -20,9 +20,6 @@ h1 {
   font: 700 6.25em/1.5 'Helvetica', sans-serif;
 }
 
-/* .navigation {
-} */
-
 /* Psuedo Classes ----------------- */
 a:link {
   text-decoration: none;
@@ -53,6 +50,11 @@ a:visited {
 .main-footer,
 main {
   text-align: center;
+}
+.contact {
+  float: center;
+  background: radial-gradient(#fff, transparent),
+  url(/images/mountains.jpg);
 }
 /* Layout Styles ----------------- */
 .arrow {
