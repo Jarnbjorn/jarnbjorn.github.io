@@ -84,7 +84,21 @@ main {
   display: table;
 }
 /* Floated Collumns ----------------- */
+.about,
+.pastprojects {
+  width: 46.5%;
+}
+.about {
+  float: left;
+}
+.pastprojects {
+  float: right;
+}
 
 /* Float Clearfix ----------------- */
+.group:after {
+  content:'';
+  clear: both;
+  display: table;
 
 /* Media Queries ----------------- */
