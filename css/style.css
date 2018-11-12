@@ -54,7 +54,7 @@ main {
 .contact {
   float: center;
   background: radial-gradient(#fff, transparent),
-  url(/images/mountains.jpg);
+  url(/images/mountains.jpg) no-repeat center/cover;
 }
 /* Layout Styles ----------------- */
 .arrow {
