@@ -124,9 +124,9 @@ main {
   content:'';
   clear: both;
   display: table;
-
+}
 /* Media Queries ----------------- */
-@media all and (max-width: 780px) {
+@media (max-width: 780px) {
   .content {
     width: 60%;
     background-color: blue;
