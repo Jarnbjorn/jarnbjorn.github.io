@@ -60,7 +60,6 @@ main {
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
-  border-bottom: 1px solid #373737;
   background: url(/images/mountains.jpg) no-repeat center/cover;
 }
 .contact p {
@@ -68,6 +67,10 @@ main {
 }
 .fa-envelope {
   padding-right: 20px;
+}
+.main-footer {
+  border-top: 3px solid #c0b283;
+  font-size: .85em/1em;
 }
 /* Layout Styles ----------------- */
 .arrow {
