@@ -126,3 +126,9 @@ main {
   display: table;
 
 /* Media Queries ----------------- */
+
+@media all and (max-width: 1024px) {
+  .content {
+    width: 60%;
+  }
+}
