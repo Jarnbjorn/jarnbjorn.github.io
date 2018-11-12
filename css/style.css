@@ -58,6 +58,9 @@ a i {
 main {
   text-align: center;
 }
+.floats {
+  border-bottom: 3px solid #c0b283;
+}
 .contact {
   height: 250px;
   width: 450px;
