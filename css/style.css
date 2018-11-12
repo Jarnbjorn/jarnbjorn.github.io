@@ -52,9 +52,11 @@ main {
   text-align: center;
 }
 .contact {
-  float: center;
-  background: radial-gradient(#fff, transparent),
-  url(/images/mountains.jpg) no-repeat center/cover;
+  height: 250px;
+  width: 450px;
+  text-align: center;
+  margin: auto;
+  background: url(/images/mountains.jpg) no-repeat center/cover;
 }
 /* Layout Styles ----------------- */
 .arrow {
