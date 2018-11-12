@@ -76,7 +76,8 @@ main {
   border-top: 3px solid #c0b283;
 }
 .main-footer blockquote {
-  font-size: 0.5em / 0.7em;
+  font-size: 0.85em;
+  letter-spacing: 0.85em;
 }
 /* Layout Styles ----------------- */
 .arrow {
