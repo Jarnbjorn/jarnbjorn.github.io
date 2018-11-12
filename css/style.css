@@ -126,7 +126,7 @@ main {
   display: table;
 }
 /* Media Queries ----------------- */
-@media (max-width: 780px) {
+@media (max-width: 1024px) {
   .content {
     width: 90%;
   }
