@@ -59,11 +59,12 @@ main {
   width: 450px;
   text-align: center;
   margin: auto;
-  border-bottom: 1px solid #c0b283;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #373737;
   background: url(/images/mountains.jpg) no-repeat center/cover;
 }
 .contact p {
-  padding-bottom: 20px;
+  padding-bottom: 45px;
 }
 .fa-envelope {
   padding-right: 20px;
