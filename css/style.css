@@ -129,15 +129,22 @@ main {
   display: table;
 }
 /* Media Queries ----------------- */
-@media (max-width: 1024px) {
+/* @media (max-width: 1024px) {
   .content {
     width: 90%;
   }
-}
+} */
 @media (max-width: 768px) {
   .pastprojects,
   .about {
     float: none;
     width: 100%;
+  }
+}
+@media (max-width: 640px) {
+  h1 {
+    font-size: 6em;
+    line-height: 1.1em;
+    padding-bottom: 168px;
   }
 }
