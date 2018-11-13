@@ -92,6 +92,7 @@ main {
   list-style-type: none;
   padding: 0;
   margin: 0;
+  overflow: hidden;
   background-color: #373737;
 }
 .navi li {
@@ -100,6 +101,7 @@ main {
 .navi a {
   display: block;
   padding: 10px 12px;
+  text-align: center;
 }
 .navi a:hover {
   background-color: #dcd0c0;
