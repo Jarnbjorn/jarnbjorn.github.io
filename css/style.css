@@ -167,4 +167,7 @@ main {
   .main-footer blockquote {
     font-size: 0.75em;
   }
+  .contact p {
+    padding-top: 20px;
+  }
 }
