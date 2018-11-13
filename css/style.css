@@ -66,11 +66,13 @@ main {
   width: 450px;
   text-align: center;
   margin: auto;
+  overflow: hidden;
   margin-bottom: 30px;
   background: url(/images/mountains.jpg) no-repeat bottom/cover;
 }
 .contact h3 {
-  font-size: 1.3em;
+  font-size: 1.7em;
+  margin: 0;
 }
 .contact p {
   font-weight: bold;
