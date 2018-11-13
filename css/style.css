@@ -67,11 +67,14 @@ main {
   text-align: center;
   margin: auto;
   margin-bottom: 30px;
-  background: url(/images/mountains.jpg) no-repeat center/cover;
+  background: url(/images/mountains.jpg) no-repeat bottom/cover;
+}
+.contact h3 {
+  font-size: 1.3em;
 }
 .contact p {
   font-weight: bold;
-  padding-bottom: 45px;
+  padding-top: 45px;
 }
 .fa-envelope {
   padding-right: 45px;
