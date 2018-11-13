@@ -41,7 +41,6 @@ a:visited {
 
 /* Main Styles ----------------- */
 .main-header {
-  height: 500px;
   padding-top: 130px;
   overflow: hidden;
   background: linear-gradient(315deg, #dcd0c0, transparent 60%), 
@@ -93,7 +92,6 @@ main {
   list-style-type: none;
   padding: 0;
   margin: 0;
-  display: inline-block;
   background-color: #373737;
 }
 .navi li {
