@@ -59,7 +59,7 @@ main {
   text-align: center;
 }
 .floats {
-  margin: auto;
+  padding-left: 10px;
 }
 .contact {
   height: 250px;
@@ -132,5 +132,12 @@ main {
 @media (max-width: 1024px) {
   .content {
     width: 90%;
+  }
+}
+@media (max-width: 768px) {
+  .pastprojects,
+  .about {
+    float: none;
+    width: 100%;
   }
 }
