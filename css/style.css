@@ -162,9 +162,9 @@ main {
     height: 350px;
   }
   .subtitle {
-    font-size: 1.5em / 1.2em; 
+    font-size: 1.5em; 
   }
   h1 {
-    font-size: 3.8em;
+    font-size: 3.5em;
   }
 }
