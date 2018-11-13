@@ -142,21 +142,11 @@ main {
     float: none;
     width: 100%;
   }
-}
-/* @media (max-width: 640px) {
-  h1 {
-    font-size: 6em;
-    line-height: 1.1em;
-    padding-bottom: 168px;
+  .contact {
+    max-width: 100%;
+    padding-top: 20px;
   }
 }
-@media (max-width: 618px) {
-  h1 {
-    font-size: 6em;
-    line-height: 1.1em;
-    padding-bottom: 168px;
-  }
-} */
 @media (max-width: 420px) {
   .main-header {
     height: 350px;
