@@ -70,7 +70,7 @@ main {
   background: url(/images/mountains.jpg) no-repeat center/cover;
 }
 .contact p {
-  color: #c0b283;
+  font-weight: bold;
   padding-bottom: 45px;
 }
 .fa-envelope {
