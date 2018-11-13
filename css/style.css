@@ -157,4 +157,7 @@ main {
   h1 {
     font-size: 3.5em;
   }
+  .main-footer blockquote {
+    font-size: 0.75em;
+  }
 }
