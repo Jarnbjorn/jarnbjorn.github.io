@@ -16,7 +16,7 @@ color palette:
   box-sizing: border-box;
 }
 
-body {
+.bodywrap {
   background-color: #cfc7bc;
 }
 
