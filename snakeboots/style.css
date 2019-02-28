@@ -16,8 +16,11 @@ color palette:
   box-sizing: border-box;
 }
 
-.bodywrap {
-  background-color: #cfc7bc;
+.productWrap {
+  display:flex;
+}
+.productListing {
+  flex-direction:row;
 }
 
 /* Verticle Nav*/
