@@ -16,11 +16,11 @@ color palette:
   box-sizing: border-box;
 }
 
-.productWrap {
+/* .productWrap {
   display:flex;
 }
 .productListing {
-  flex-direction:row;
+  flex-direction:row; */
 }
 
 /* Verticle Nav*/
