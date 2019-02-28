@@ -20,7 +20,7 @@ body {
   background-color: #fff;
   color: #5b6c55;
   font-family: 'Archivo', sans-serif;
-  font: 1em/1.5;
+  font: 1em/1.7;
 }
 
 ul{
@@ -29,7 +29,6 @@ ul{
   list-style: none;
 }
 
-}
 header,
 img {
   width:100%;
@@ -40,7 +39,7 @@ img {
 }
 .productListing {
   flex-direction:row; */
-}
+
 
 /* Verticle Nav*/
 
