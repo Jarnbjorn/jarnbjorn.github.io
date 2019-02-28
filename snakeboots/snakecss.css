@@ -3,11 +3,23 @@
 create a robust, sticky nav for mobile that goes from vert collapsing to horizontal at a desktop breakpoint and footer
 
 create breakpoints for flexbox content
+
+color palette: 
+#ffffff = white
+#877761 = brown
+#a1bc7e = light green
+#cfc7bc = khaki
+#5b6c55 = dark green
 */
 
 * {
   box-sizing: border-box;
 }
+
+body {
+  background-color: #cfc7bc;
+}
+
 /* Verticle Nav*/
 
 /* Sticky Footer */
