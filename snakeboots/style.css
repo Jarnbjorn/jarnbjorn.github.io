@@ -84,7 +84,8 @@ nav a{
   text-transform: uppercase;
   display: block;
   padding: 10px 15px;
-  border-bottom: solid 3px;
+  border-bottom: solid 1.5px;
+  border-top: solid 1.5px;
 }
 ul{
   padding:0;
