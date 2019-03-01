@@ -18,14 +18,12 @@ color palette:
 /* Base Styles */
 body {
   background-color: #fff;
-  color: #5b6c55;
+  color: black;
   font-family: 'Archivo', sans-serif;
   font: 1em/1.7;
   text-align: center;
 }
-a {
-  text-decoration: none;
-}
+
 header,
 img {
   width:100%;
@@ -35,6 +33,20 @@ img[src="misc/img/US_Flag.jpg"] {
   height: 30px;
   width: 30px;
 }
+/* link styles */
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color:#5b6c55;
+}
+a:hover {
+  color:#a1bc7e;
+}
+a::after{
+  color:#a1bc7e;
+}
+
+
 /* Flexbox Base Style */
 .bodyWrap {
   display:flex;
@@ -62,15 +74,25 @@ img[src="misc/img/US_Flag.jpg"] {
   margin-bottom: 40px;
 }
 
+
 /* Verticle Nav*/
 ul{
   padding:0;
   margin:0;
   list-style: none;
 }
-ol {
+ul {
   background-color: #cfc7bc;
 }
+nav {
+  margin-top: 5px;
+}
+nav a{
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+}
+
 
 /* Sticky Footer */
 
