@@ -81,16 +81,20 @@ ul{
   margin:0;
   list-style: none;
 }
+ul li:first-child{
+  border-top: solid 3px;
+}
 ul {
   background-color: #cfc7bc;
 }
 nav {
-  margin-top: 5px;
+  margin: 0 1%;
 }
 nav a{
   text-align: center;
   display: block;
   padding: 10px 15px;
+  border-bottom: solid 3px;
 }
 
 
