@@ -35,12 +35,14 @@ img[src="misc/img/US_Flag.jpg"] {
   height: 30px;
   width: 30px;
 }
-
+/* Flexbox Base Style */
 .bodyWrap {
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin: auto;
+  width: 85%;
 }
  .productWrap
  .bannerCard {
@@ -48,7 +50,6 @@ img[src="misc/img/US_Flag.jpg"] {
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 90%;
 }
 .productListing1,
 .productListing2,
