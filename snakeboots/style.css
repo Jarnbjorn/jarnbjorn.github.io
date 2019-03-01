@@ -30,6 +30,12 @@ header,
 img {
   width:100%;
 }
+img[src="misc/img/US_Flagmini.gif"],
+img[src="misc/img/US_Flag.jpg"] {
+  height: 30px;
+  width: 30px;
+}
+
 .bodyWrap {
   display:flex;
   flex-direction: column;
