@@ -76,6 +76,15 @@ a::after{
 
 
 /* Verticle Nav*/
+nav {
+  margin: 0 1%;
+}
+nav a{
+  text-align: center;
+  display: block;
+  padding: 10px 15px;
+  border-bottom: solid 3px;
+}
 ul{
   padding:0;
   margin:0;
@@ -89,18 +98,18 @@ ul li:first-child:hover{
   border-top: solid 3px;
   color: #a1bc7e;
 }
+ul li:last-child{
+  border-bottom:solid 1.5px;
+  color:#5b6c55;
+}
+ul li:last-child:hover{
+  border-bottom:solid 1.5px;
+  color:#a1bc7e;
+}
 ul {
   background-color: #cfc7bc;
 }
-nav {
-  margin: 0 1%;
-}
-nav a{
-  text-align: center;
-  display: block;
-  padding: 10px 15px;
-  border-bottom: solid 3px;
-}
+
 
 
 /* Sticky Footer */
