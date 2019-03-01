@@ -21,6 +21,7 @@ body {
   color: #5b6c55;
   font-family: 'Archivo', sans-serif;
   font: 1em/1.7;
+  text-align: center;
 }
 header,
 img {
@@ -28,14 +29,15 @@ img {
 }
  .productWrap {
   display:flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 90%;
 }
 .productListing1,
 .productListing2,
 .productListing3 {
-  flex-direction:row;
-  width:100%;
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-  text-align: center;
 }
 
 /* Verticle Nav*/
