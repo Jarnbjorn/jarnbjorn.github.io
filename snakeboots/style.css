@@ -93,11 +93,11 @@ ul{
   list-style: none;
 }
 ul li:first-child{
-  border-top: solid 3px;
+  border-top: solid 1.5px;
   color:#5b6c55;
 }
 ul li:first-child:hover{
-  border-top: solid 3px;
+  border-top: solid 1.5px;
   color: #a1bc7e;
 }
 ul li:last-child{
@@ -112,8 +112,10 @@ ul {
   background-color: #cfc7bc;
 }
 
-
-
 /* Sticky Footer */
+img [src="chippewa/img/mini23913.jpg"]{
+  height: 100px;
+  width: 80px;
+}
 
 /* Media Queries */
