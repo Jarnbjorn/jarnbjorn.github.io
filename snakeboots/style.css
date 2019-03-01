@@ -83,9 +83,10 @@ nav a{
   text-align: center;
   text-transform: uppercase;
   display: block;
-  padding: 10px 15px;
+  padding: 7px 5px;
   border-bottom: solid 1.5px;
   border-top: solid 1.5px;
+  font-size: 1.2em;
 }
 ul{
   padding:0;
@@ -120,5 +121,13 @@ img[src="chippewa/img/mini23913.jpg"]{
 footer {
   margin:0 1%;
 }
+footer a{
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 7px 5px;
+  border-bottom: solid 1.5px;
+  border-top: solid 1.5px;
+  font-size: 1.2em;
 
 /* Media Queries */
