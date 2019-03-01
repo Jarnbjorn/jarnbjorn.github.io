@@ -23,11 +23,20 @@ body {
   font: 1em/1.7;
   text-align: center;
 }
+a {
+  text-decoration: none;
+}
 header,
 img {
   width:100%;
 }
- .productWrap {
+.bodyWrap {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+ .productWrap
+ .bannerCard {
   display:flex;
   flex-direction: column;
   justify-content: center;
@@ -36,7 +45,8 @@ img {
 }
 .productListing1,
 .productListing2,
-.productListing3 {
+.productListing3,
+.bannerCard {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
