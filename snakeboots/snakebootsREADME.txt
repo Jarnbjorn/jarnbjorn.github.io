@@ -4,5 +4,7 @@ snakeboots mobile conversion
 1. remove HTML table format
 2. write sticky nav bar 
 3. write sticky footer
+3.5-.75. add search bar, sticky cart button, integrate comments/reviews somehow. 
 4. flexbox elements with media queries
 5. avoid extrenious CSS
+
