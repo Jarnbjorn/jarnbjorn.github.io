@@ -82,8 +82,6 @@ a::after{
   padding-bottom: 0.5px;
   padding-top: 0.5px;
   margin-bottom: 40px;
-
-  display: flex;
 }
 
 /* Verticle Nav*/
