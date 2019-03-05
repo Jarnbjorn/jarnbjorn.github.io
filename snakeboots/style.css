@@ -28,7 +28,7 @@ header,
 img {
   width:100%;
 }
-.flag,
+.productListing .flag,
 img[src="misc/img/US_Flag.jpg"] {
   height: 30px;
   width: 30px;
