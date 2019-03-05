@@ -141,7 +141,8 @@ footer a{
     width: 90%;
   }
   .productListing {
-    flex: 1 25%;
+    flex: 1 20%;
+    margin-left: 30px;
   /* adjust percentage to take up more or less of a row. 
   add padding to left and right */
   }
