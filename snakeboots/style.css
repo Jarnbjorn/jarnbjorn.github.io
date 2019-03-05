@@ -28,7 +28,7 @@ header,
 img {
   width:100%;
 }
-.productListing .flag img,
+img[src="misc/img/US_Flagmini.gif"],
 img[src="misc/img/US_Flag.jpg"] {
   height: 30px;
   width: 30px;
@@ -37,9 +37,12 @@ img[src="misc/img/sale.png"]{
   width: 80%;
   height: 100px;
 }
-.productListing img {
+.productImg {
   width: 280px;
   height: 430px;
+}
+.productInfo {
+  margin-top: auto;
 }
 /* link styles */
 a {
