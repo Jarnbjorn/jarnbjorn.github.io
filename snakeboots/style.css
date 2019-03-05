@@ -60,16 +60,14 @@ a::after{
   margin: auto;
   width: 85%;
 }
- .productWrap
+ /* .productWrap
  .bannerCard {
   display:flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-}
-.productListing1,
-.productListing2,
-.productListing3,
+} */
+
 .productListing,
 .bannerCard {
   flex: 1 200px;
@@ -127,9 +125,6 @@ footer a{
   text-transform: uppercase;
   display: block;
   padding: 7px 5px;
-  border-bottom: solid 1.5px;
-  border-top: solid 1.5px;
-  border-radius: 20%;
   font-size: 1.2em;
 
 /* media queries */
