@@ -54,7 +54,7 @@ a::after{
 /* Flexbox Base Style */
 .bodyWrap {
   display:flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin: auto;
@@ -75,6 +75,8 @@ a::after{
   padding-bottom: 0.5px;
   padding-top: 0.5px;
   margin-bottom: 40px;
+
+  display: flex;
 }
 
 
