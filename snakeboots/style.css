@@ -133,3 +133,17 @@ footer a{
   font-size: 1.2em;
 
 /* media queries */
+
+@media (min-width: 1025px) {
+  
+  .bodyWrap {
+    align-items: stretch;
+    width: 90%;
+  }
+
+  .productListing {
+    flex: 1 25%;
+ /* adjust percentage to take up more or less of a row. 
+ add padding to left and right */
+  }
+}
