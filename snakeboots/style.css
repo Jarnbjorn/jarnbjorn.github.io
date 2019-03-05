@@ -79,6 +79,9 @@ a::after{
   display: flex;
 }
 
+.productListing img {
+  max-width:100%;
+}
 
 /* Verticle Nav*/
 nav {
