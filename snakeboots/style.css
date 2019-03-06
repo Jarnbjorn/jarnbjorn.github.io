@@ -83,7 +83,9 @@ a::after{
   padding-top: 0.5px;
   margin-bottom: 40px;
 }
-
+.sngz img {
+  max-width: 70%;
+}
 /* Verticle Nav*/
 .main-nav {
   margin: 0 1%;
