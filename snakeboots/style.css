@@ -101,7 +101,7 @@ ul{
   list-style: none;
 }
 /* Margin fix */
-.bodyWrap:first-child{
+.bodyWrap .productListing:first-child{
   margin-left: 0;
 }
 
