@@ -144,8 +144,9 @@ footer a{
   .name {
     max-width:450px;
   }
-  .disqus_thread {
+  #disqus_thread {
     width:90%;
+    margin:auto;
   }
 }
 
