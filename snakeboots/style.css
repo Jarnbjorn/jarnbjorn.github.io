@@ -100,22 +100,6 @@ ul{
   margin:0;
   list-style: none;
 }
-ul li:first-child{
-  border-top: solid 1.5px;
-  color:#5b6c55;
-}
-ul li:first-child:hover{
-  border-top: solid 1.5px;
-  color: #a1bc7e;
-}
-ul li:last-child{
-  border-bottom:solid 1.5px;
-  color:#5b6c55;
-}
-ul li:last-child:hover{
-  border-bottom:solid 1.5px;
-  color:#a1bc7e;
-}
 
 
 /* Sticky Footer */
