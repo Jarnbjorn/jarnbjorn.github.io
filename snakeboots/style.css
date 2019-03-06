@@ -100,7 +100,10 @@ ul{
   margin:0;
   list-style: none;
 }
-
+/* Margin fix */
+.bodyWrap:first-child{
+  margin-left: 0;
+}
 
 /* Sticky Footer */
 img[src="chippewa/img/mini23913.jpg"]{

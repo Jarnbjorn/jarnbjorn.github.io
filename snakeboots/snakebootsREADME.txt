@@ -11,5 +11,5 @@ snakeboots mobile conversion
 
 notes: use google custom search engine to sort out the search bar. It shouldn't be too complicated but you need ownership of snakeboots.com to make it work.
 
-
+use disqus for comments section. 
 
