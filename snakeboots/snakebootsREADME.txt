@@ -8,3 +8,8 @@ snakeboots mobile conversion
 4. flexbox elements with media queries
 5. avoid extrenious CSS
 
+
+notes: use google custom search engine to sort out the search bar. It shouldn't be too complicated but you need ownership of snakeboots.com to make it work.
+
+
+
