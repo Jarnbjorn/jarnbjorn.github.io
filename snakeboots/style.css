@@ -137,6 +137,10 @@ footer a{
   }
   .searchBar {
     width:85%;
+    margin: auto;
+  }
+  .name {
+    max-width:450px;
   }
 }
 
