@@ -85,10 +85,10 @@ a::after{
 }
 
 /* Verticle Nav*/
-nav {
+.main-nav {
   margin: 0 1%;
 }
-nav a{
+.main-nav a{
   text-align: center;
   text-transform: uppercase;
   display: block;
