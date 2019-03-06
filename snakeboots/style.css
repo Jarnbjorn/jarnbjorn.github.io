@@ -144,10 +144,6 @@ footer a{
     align-items: stretch;
     width: 90%;
   }
-  .main-header {
-		flex-direction: row;
-    justify-content: space-between;
-  }
   .productListing {
     flex: 1 20%;
     margin-left: 30px;
