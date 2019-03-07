@@ -118,6 +118,13 @@ footer a{
   padding: 7px 5px;
   font-size: 1.2em;
 }
+.footColumn1,
+.footColumn2,
+.footbottom,
+.sizes{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
 /* media queries */
 @media screen and (min-width:460px){
