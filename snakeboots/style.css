@@ -150,11 +150,15 @@ footer a{
     justify-content: center;
     justify-items: center;
   }
-  .foottop{
+  .foottop,
+  .top,
+  .bannerBestSeller{
     flex:1 100%;
   }
   .footColumn1,
-  .footColumn2{
+  .footColumn2,
+  .footbottom,
+  .sizes{
     flex: 1 50%;
   }
   #disqus_thread {
