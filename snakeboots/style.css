@@ -144,6 +144,19 @@ footer a{
   .name {
     max-width:450px;
   }
+  footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-items: center;
+  }
+  .foottop{
+    flex:1 100%;
+  }
+  .footColumn1,
+  .footColumn2{
+    flex: 1 50%;
+  }
   #disqus_thread {
     width:90%;
     margin:auto;
