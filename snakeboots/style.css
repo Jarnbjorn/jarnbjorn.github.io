@@ -89,6 +89,7 @@ a::after{
   display: block;
   padding: 7px 5px;
   font-size: 1.2em;
+  margin: 10px;
 }
 ul{
   padding:0;
