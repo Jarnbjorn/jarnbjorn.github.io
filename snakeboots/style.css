@@ -43,6 +43,9 @@ img[src="misc/img/US_Flag.jpg"] {
   font-size: 1.3em;
   color:red;
 }
+.bannerImp{
+  font-size:1.4em;
+}
 /* link styles */
 a {
   text-decoration: none;
