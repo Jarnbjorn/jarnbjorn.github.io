@@ -190,5 +190,11 @@ footer a{
   /* adjust percentage to take up more or less of a row. 
   add padding to left and right */
   }
+  .footColumn1,
+  .footColumn2,
+  .footbottom,
+  .sizes{
+    flex: 1 25%;
+  }
 }
   
