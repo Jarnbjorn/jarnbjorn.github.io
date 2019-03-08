@@ -1,4 +1,8 @@
 /* Media Queries */
+.usFlag {
+	height: 30px;
+	width: 30px;
+}
 @media (min-width:770px){
 	.col{
 		flex:1 50%;
