@@ -23,7 +23,10 @@ body {
   font: 1em/1.7;
   text-align: center;
 }
-
+h1,
+h3 {
+  color:#877761;
+}
 header,
 img {
   width:100%;
@@ -42,6 +45,10 @@ img[src="misc/img/US_Flag.jpg"] {
 .sale{
   font-size: 1.3em;
   color:red;
+}
+.bannertop{
+  margin:auto;
+  width:90%;
 }
 .bannerImp{
   font-size:1.4em;
