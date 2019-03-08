@@ -1,8 +1,10 @@
 /* this style sheet is specifically for corrections within the chippewa file directory */
 
-blockquote{
+blockquote,
+.dear{
 	text-align: left;
-	font: 1.2em/2em;
+	font: 1.2em;
+	line-height: 1.3em;
 	text-indent: 2em;
 }
 
