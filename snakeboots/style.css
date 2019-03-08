@@ -46,6 +46,10 @@ img[src="misc/img/US_Flag.jpg"] {
 .bannerImp{
   font-size:1.4em;
 }
+#disqus_thread {
+  width:90%;
+  margin:auto;
+}
 /* link styles */
 a {
   text-decoration: none;
@@ -161,10 +165,6 @@ footer a{
   .footbottom,
   .sizes{
     flex: 1 50%;
-  }
-  #disqus_thread {
-    width:90%;
-    margin:auto;
   }
 }
 @media screen and (min-width: 1025px){
