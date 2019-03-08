@@ -39,6 +39,10 @@ img[src="misc/img/US_Flag.jpg"] {
 .productInfo {
   margin-top: auto;
 }
+.productHead {
+  font-size: 1.1em;
+  color: #877761;
+}
 .price{
   font-size: 1.2em;
 }
