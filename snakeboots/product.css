@@ -2,13 +2,14 @@
 h4{
 	font-size:1.3em;
 }
-ul{
+
+form {
+	padding:5px;
+}
+.col ul{
 	padding: 3px;
 	font-size: 1.2em;
 	line-height: 1.5em;
-}
-form {
-	padding:5px;
 }
 .col ul li:nth-last-child(2),
 .col ul li:nth-last-child(3){
