@@ -10,6 +10,14 @@ ul{
 form {
 	padding:5px;
 }
+.col ul li:nth-last-child(2),
+.col ul li:nth-last-child(3){
+	font-weight: bold;
+}
+.protect{
+	color:red;
+	font-size: 1.1em;
+}
 .usFlag {
 	height: 30px;
 	width: 30px;
