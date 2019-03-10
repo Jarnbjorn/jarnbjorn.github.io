@@ -1,4 +1,12 @@
 
+h4{
+	font-size:1.3em;
+}
+ul{
+	padding: 3px;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
 form {
 	padding:5px;
 }
@@ -8,6 +16,8 @@ form {
 }
 .bodyWrap{
 	justify-content: space-around;
+	align-items: center;
+	max-width: 1300px;
 }
 .price{
 	font-size: 2em;
@@ -22,9 +32,9 @@ form {
 }
 
 /* Media Queries */
-@media (min-width:770px){
+@media (min-width:764px){
 	.col{
 		flex:1 50%;
-		max-width: 430px;
+		max-width: 500px;
 	}
 }
