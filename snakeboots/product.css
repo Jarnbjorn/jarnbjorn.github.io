@@ -3,8 +3,11 @@
 	height: 30px;
 	width: 30px;
 }
+.bodyWrap{
+	justify-content: space-around;
+}
 .zoom {
-  transition: transform .2s;
+  transition: transform .5s;
 }
 .zoom:hover {
   -ms-transform: scale(1.5); /* IE 9 */
