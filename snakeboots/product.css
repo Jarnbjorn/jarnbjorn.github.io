@@ -11,8 +11,8 @@ form {
 	font-size: 1.2em;
 	line-height: 1.5em;
 }
-.col ul li:nth-last-child(2),
-.col ul li:nth-last-child(3){
+.col ul li:nth-last-child(1),
+.col ul li:nth-last-child(2){
 	font-weight: bold;
 }
 .protect{
