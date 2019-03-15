@@ -6,8 +6,8 @@ h4{
 form {
 	padding:5px;
 }
-.size {
-	padding:3px;
+.size a{
+	font-size: 1.3em;
 }
 .col ul{
 	padding: 3px;
