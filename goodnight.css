@@ -57,22 +57,22 @@ html {
 .super-moon {
   position: absolute;
   top: 25%;
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 50%;
   left: 45%;
   box-shadow: inset -16px 4px 5px rgba(0, 0, 0, 0.4);
-  background: radial-gradient(circle at 5px 175px, #fbba7b, #d43600);
+  background: radial-gradient(circle at 5px 175px, #adaaa7, #76726f);
 }
 .super-moon .crater {
   width: 70px;
   height: 70px;
   margin: 30%;
   background: rgba(92, 3, 1, 0.6);
-  background: radial-gradient(circle at 5px 175px, #5c0301, #d43600);
+  background: radial-gradient(circle at 5px 175px, #3b3937, #54524e);
   border-radius: 50%;
   box-shadow: inset 6px -4px 5px rgba(0, 0, 0, 0.4);
-  -webkit-transform: translateX(90px) translateY(-50px) skewX(15deg) skewY(2deg);
+  -webkit-transform: translateX(130px) translateY(-50px) skewX(15deg) skewY(2deg);
   position: relative;
 }
 .super-moon .crater2 {
@@ -80,10 +80,10 @@ html {
   height: 30px;
   margin: 30%;
   background: rgba(92, 3, 1, 0.6);
-  background: radial-gradient(circle at 5px 175px, #5c0301, #d43600);
+  background: radial-gradient(circle at 5px 175px, #3b3937, #54524e);
   border-radius: 50%;
   box-shadow: inset 4px -4px 5px rgba(0, 0, 0, 0.4);
-  -webkit-transform: translateX(120px) translateY(-120px) skewX(4deg) skewY(2deg);
+  -webkit-transform: translateX(180px) translateY(-120px) skewX(4deg) skewY(2deg);
   position: relative;
 }
 .super-moon .crater3 {
@@ -91,10 +91,10 @@ html {
   height: 20px;
   margin: 30%;
   background: rgba(92, 3, 1, 0.6);
-  background: radial-gradient(circle at 5px 175px, #5c0301, #d43600);
+  background: radial-gradient(circle at 5px 175px, #3b3937, #54524e);
   border-radius: 50%;
   box-shadow: inset 3px -4px 5px rgba(0, 0, 0, 0.4);
-  -webkit-transform: translateX(70px) translateY(-280px) skewX(4deg) skewY(2deg);
+  -webkit-transform: translateX(120px) translateY(-280px) skewX(4deg) skewY(2deg);
   position: relative;
 }
 
