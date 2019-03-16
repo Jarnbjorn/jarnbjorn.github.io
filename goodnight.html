@@ -5,26 +5,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="goodnight.css">
-	<script src="lib/typed.js"></script>
 	<title>Goodnight</title>
 </head>
 <body>
+	<div class="container">
+		<h1>Emmy, you are
+			<span class="txt-type" data-wait="3000" data-words='["beautiful", "loved", "kind", "thoughtful", "sleepy"]'></span>
+		</h1>
+		<h2>sleep well babycakes...</h2>
+	</div>
+
 <div class="stars"></div>
 <div class="stars2"></div>
 <div class="stars3"></div>
-
-
-<div id="typed">
-	<p>test test test. I am testing this test.</p>
-</div>
-
-<script>
-  var typed = new Typed('#typed', {
-		stringsElement: '#typed-strings',
-		backSpeed: 40,
-		typeSpeed: 40
-  });
-</script>
 
 <span id="typed"></span>
 <div class="super-moon">
@@ -37,5 +30,6 @@
 <audio id="player" src="Arcade Fire - Song on the Beach Photograph.mp3">
 	<source src="sound.mp3" preload="auto">
 </audio>
+	<script src="main.js"></script>
 </body>
 </html>
