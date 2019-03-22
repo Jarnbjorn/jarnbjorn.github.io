@@ -14,3 +14,11 @@
 .sizeChart {
 	max-width: 1000px;
 }
+
+.scuff img {
+	max-width: 200px;
+}
+
+.products {
+	box-shadow: none;
+}
