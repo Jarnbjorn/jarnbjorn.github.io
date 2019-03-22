@@ -1,0 +1,16 @@
+
+.price {
+	font-size: 1.2em;
+}
+.sale {
+	font-size: 1.8em;
+}
+.bodyWrap {
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 0.5px;
+  padding-top: 0.5px;
+  margin-bottom: 40px;
+}
+.sizeChart {
+	max-width: 1000px;
+}
