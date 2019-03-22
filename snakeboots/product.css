@@ -1,0 +1,52 @@
+
+h4{
+	font-size:1.3em;
+}
+
+form {
+	padding:5px;
+}
+.size a{
+	font-size: 1.3em;
+}
+.col ul{
+	padding: 3px;
+	font-size: 1.2em;
+	line-height: 1.5em;
+}
+.col ul li:nth-last-child(1),
+.col ul li:nth-last-child(2){
+	font-weight: bold;
+}
+.protect{
+	color:red;
+	font-size: 1.1em;
+}
+.usFlag {
+	height: 30px;
+	width: 30px;
+}
+.bodyWrap{
+	justify-content: space-around;
+	align-items: center;
+	max-width: 1300px;
+}
+.price{
+	font-size: 2em;
+}
+.zoom {
+  transition: transform .5s;
+}
+.zoom:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+	transform: scale(1.5);
+}
+
+/* Media Queries */
+@media (min-width:764px){
+	.col{
+		flex:1 50%;
+		max-width: 500px;
+	}
+}

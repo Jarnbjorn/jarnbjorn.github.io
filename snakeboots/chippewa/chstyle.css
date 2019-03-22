@@ -1,0 +1,20 @@
+/* this style sheet is specifically for corrections within the chippewa file directory */
+
+blockquote,
+.dear{
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	text-indent: 2em;
+}
+
+.tertiary img{
+	max-width: 200px;
+}
+
+@media (min-width:1000px){
+	.col {
+		flex: 1 50%;
+	}
+}
+/* Emmy is the cutest of all time */

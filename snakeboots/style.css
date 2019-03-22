@@ -1,0 +1,203 @@
+/* minimal style here.
+
+create a robust, sticky nav for mobile that goes from vert collapsing to horizontal at a desktop breakpoint and footer
+
+create breakpoints for flexbox content
+
+color palette: 
+#ffffff = white
+#877761 = brown
+#a1bc7e = light green
+#cfc7bc = khaki
+#5b6c55 = dark green
+*/
+
+* {
+  box-sizing: border-box;
+}
+/* Base Styles */
+body {
+  background-color: #fff;
+  color: black;
+  font-family: 'Archivo', sans-serif;
+  font: 1em/1.7;
+  text-align: center;
+}
+h1,
+h3 {
+  color:#877761;
+}
+header,
+img {
+  width:100%;
+}
+img[src="misc/img/US_Flagmini.gif"],
+img[src="misc/img/US_Flag.jpg"] {
+  height: 30px;
+  width: 30px;
+}
+.productInfo {
+  margin-top: auto;
+}
+.productHead {
+  font-size: 1.1em;
+  color: #877761;
+  display:none;
+}
+.price{
+  font-size: 1.2em;
+}
+.sale{
+  font-size: 1.3em;
+  color:red;
+}
+.bannertop{
+  margin:auto;
+  width:90%;
+}
+.bannerImp{
+  font-size:1.4em;
+}
+#disqus_thread {
+  width:90%;
+  margin:auto;
+}
+/* link styles */
+a {
+  text-decoration: none;
+  font-size: 1.5em;
+  color:#5b6c55;
+}
+a:hover {
+  color:#a1bc7e;
+}
+a::after{
+  color:#a1bc7e;
+}
+
+/* Flexbox Base Style */
+.bodyWrap,
+.snakeguardz{
+  display:flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: stretch;
+  margin: auto;
+  width: 85%;
+}
+.productListing{
+  flex: 1 200px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  padding-bottom: 0.5px;
+  padding-top: 0.5px;
+  margin-bottom: 40px;
+}
+.sngz img {
+  max-width: 70%;
+}
+/* Verticle Nav*/
+.main-nav {
+  margin: 0 1%;
+}
+.main-nav a{
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 7px 5px;
+  font-size: 1.2em;
+  margin: 10px;
+}
+ul{
+  padding:0;
+  margin:0;
+  list-style: none;
+}
+
+/* Sticky Footer */
+img[src="chippewa/img/mini23913.jpg"]{
+  height: 100px;
+  width: 80px;
+}
+footer {
+  margin:0 1%;
+}
+footer a{
+  text-align: center;
+  text-transform: uppercase;
+  display: block;
+  padding: 7px 5px;
+  font-size: 1.2em;
+}
+.footColumn1,
+.footColumn2,
+.footbottom,
+.sizes{
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+/* media queries */
+@media screen and (min-width:460px){
+  .productListing {
+    margin: 15px;
+  }
+}
+
+@media screen and (min-width:769px){
+  .main-header,
+  .main-nav {
+    display: flex;
+  }
+  .main-header {
+    flex-direction: column;
+    align-items: center;
+    width:90%;
+    margin: 0 auto;
+  }
+  .searchBar {
+    width:85%;
+    margin: auto;
+  }
+  .name {
+    max-width:400px;
+  }
+  footer{
+    display:flex;
+    flex-wrap:wrap;
+    justify-content: center;
+    justify-items: center;
+  }
+  .foottop,
+  .top,
+  .bannerBestSeller{
+    flex:1 100%;
+  }
+  .footColumn1,
+  .footColumn2,
+  .footbottom,
+  .sizes{
+    flex: 1 50%;
+  }
+}
+@media screen and (min-width: 1025px){
+  .bodyWrap {
+    align-items: stretch;
+    width: 90%;
+  }
+  .main-header {
+		flex-direction: row;
+    justify-content: space-between;
+    width: 90%;
+	}
+  .productListing {
+    flex: 1 20%;
+
+  }
+  .footColumn1,
+  .footColumn2,
+  .footbottom,
+  .sizes{
+    flex: 1 25%;
+  }
+}
+  
