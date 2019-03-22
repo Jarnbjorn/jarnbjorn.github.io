@@ -139,7 +139,7 @@ footer a{
 /* media queries */
 @media screen and (min-width:460px){
   .productListing {
-    margin-left: 15px;
+    margin: 15px;
   }
 }
 
