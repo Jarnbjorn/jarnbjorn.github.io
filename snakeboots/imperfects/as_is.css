@@ -22,3 +22,7 @@
 .products {
 	box-shadow: none;
 }
+
+.productTitle{
+	width:90%;
+}
