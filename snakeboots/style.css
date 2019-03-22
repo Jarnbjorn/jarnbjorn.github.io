@@ -139,7 +139,7 @@ footer a{
 /* media queries */
 @media screen and (min-width:460px){
   .productListing {
-    margin-left: 30px;
+    margin-left: 15px;
   }
 }
 
@@ -191,20 +191,13 @@ footer a{
 	}
   .productListing {
     flex: 1 20%;
-    margin-left: 30px;
-  /* adjust percentage to take up more or less of a row. 
-  add padding to left and right */
+
   }
   .footColumn1,
   .footColumn2,
   .footbottom,
   .sizes{
     flex: 1 25%;
-  }
-}
-@media screen and (min-width: 1200px){
-  .productListing{
-    flex: 1 20%;
   }
 }
   
