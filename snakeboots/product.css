@@ -34,6 +34,9 @@ form {
 .price{
 	font-size: 2em;
 }
+.sale {
+	font-size: 2.5em;
+}
 .zoom {
   transition: transform .5s;
 }
