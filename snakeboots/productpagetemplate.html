@@ -44,31 +44,33 @@
 
 
 
-<div class="productTitle">
-	<h1></h1>
-	<h2></h2>
-	<h3></h3>
-</div>
-<div class="bodyWrap">
-  <div class="primary col zoom">
-    <img src="" alt="">
+<div class="bigWrap" itemscope itemtype="http://schema.org/Product">
+  <div class="productTitle" itemprop="name">
+  	<h1></h1>
+  	<h2></h2>
+  	<h3></h3>
   </div>
-	<div class="secondary col">
-    <p class="productDesc">
-      <h4></h4>
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </p>
-    <p>
-      <span class="price"></span> <br>
-      <span class="ship">Free Shipping</span>
-    </p>
-
-
-
+  <div class="bodyWrap">
+    <div class="primary col zoom">
+      <img src="" alt="" itemprop="image">
+    </div>
+  	<div class="secondary col">
+      <p class="productDesc" itemprop="description">
+        <h4></h4>
+        <ul>
+          <li></li>
+          <li></li>
+          <li></li>
+        </ul>
+      </p>
+      <p>
+        <span itemprop="priceCurrency" content="USD" class="price">$</span><span class="price" itemprop="price" content=""></span><br>
+        <span itemprop="offer" itemscope itemtype="http://schema.org/Offer" class="ship">Free Shipping</span>
+      </p>
+  
+  
+  
+    </div>
   </div>
 </div>
 
