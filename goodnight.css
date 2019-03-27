@@ -50,6 +50,7 @@ h2 {
 }
 a.forward {
   display:inline-block;
+  text-decoration: none;
   padding: 6px;
   margin-left: 1px;
   border-radius: 50%;
