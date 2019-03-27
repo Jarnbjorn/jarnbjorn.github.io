@@ -49,6 +49,14 @@ h2 {
   color: #aaa;
 }
 
+a.forward {
+  display:inline-block;
+  padding: 6px;
+  margin-left: 1px;
+  border-radius: 50%;
+  -webkit-transform: translateX(1px)
+}
+
 /* Cursor */
 .txt-type > .txt {
   border-right: 0.2rem solid #777;
