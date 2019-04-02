@@ -58,9 +58,13 @@ img[src="misc/img/US_Flag.jpg"] {
 .bannerImp{
   font-size:1.4em;
 }
-#disqus_thread {
-  width:90%;
-  margin:auto;
+
+.gsc-input-box,
+.gsc-input,
+.gsc-search-button {
+  height: 50px;
+  margin: 0;
+  padding: 0;
 }
 /* link styles */
 a {
