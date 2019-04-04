@@ -8,10 +8,10 @@ form {
 }
 select{
 	margin-bottom: 15px;
+	font-size:1.2em;
 }
 input{
-	border:solid black 1px;
-	border-radius: 5px;
+	box-shadow: 0 0 10px #333;
 }
 .size a{
 	font-size: 1.3em;
