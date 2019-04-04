@@ -10,9 +10,6 @@ select{
 	margin-bottom: 15px;
 	font-size:1.2em;
 }
-input{
-	box-shadow: 0 0 10px #333;
-}
 .size a{
 	font-size: 1.3em;
 }
