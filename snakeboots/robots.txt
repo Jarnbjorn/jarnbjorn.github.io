@@ -1,0 +1,7 @@
+User-Agent: *
+Disallow: 
+Disallow: /misc/
+Disallow: /unidentified/
+Disallow: /video/
+Disallow: /Holiday/
+Disallow: /snakepics/
