@@ -26,8 +26,7 @@ body {
   font: 1em/1.7;
   text-align: center;
 }
-p{
-  font-size:1.2em;
+
 }
 h1,
 h3 {
@@ -60,6 +59,9 @@ img[src="misc/img/US_Flag.jpg"] {
 .bannertop{
   margin:auto;
   width:80%;
+}
+.bannertop p{
+  font-size:1.2em;
 }
 .bannerImp{
   font-size:1.4em;
