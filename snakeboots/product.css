@@ -64,6 +64,9 @@ select{
 .legacyimg img{
 	max-width: 300px;
 }
+.youthsize li{
+	font-size:0.8em;
+}
 /* Media Queries */
 @media (min-width:764px){
 	.col{
