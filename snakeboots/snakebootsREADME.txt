@@ -13,3 +13,7 @@ notes: use google custom search engine to sort out the search bar. It shouldn't 
 
 use disqus for comments section. 
 
+888888888888888888888888
+set up a hamburger menu for mobile devices
+resize search bar
+
