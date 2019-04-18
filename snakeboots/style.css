@@ -81,6 +81,7 @@ img[src="misc/img/US_Flagmini.gif"] {
 }
 .bannertop h3{
 	font-size: 1.2em;
+	display:none;
 }
 
 .bannerImp {
@@ -141,7 +142,7 @@ a::after {
 	display: block;
 	padding: 7px 5px;
 	font-size: 1.1em;
-	margin: 10px
+	margin: 10px;
 }
 
 ul {
@@ -208,6 +209,9 @@ footer a {
 @media screen and (min-width:460px) {
 	.productListing {
 			margin: 15px
+	}
+	.bannertop h3{
+		display:block;
 	}
 }
 
