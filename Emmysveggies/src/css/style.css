@@ -83,3 +83,10 @@
 		left:50%;
 		transform: translate(-50%, -50%);
 	}
+	.foot__arrow-up,
+	.foot__bunny,
+	.foot__twitter,
+	.foot__facebook,
+	.foot__send{
+		max-width: 75px;
+	}
