@@ -72,21 +72,24 @@
 		font-family: 'Amatic SC', Helvetica, sans-serif;
 		font-weight: 900;
 	}
+	.head__logo-img{
+		max-width: 300px;
+	}
 	.body-wrap{
 		background-image: url(../img/trianglify.svg);
 	}
-	.banner__leaf{
+	/* .banner__leaf{
 		max-height: 450px;
-	}
+	} */
 	.banner__blurb{
 		top:50%;
 		left:50%;
 		transform: translate(-50%, -50%);
 	}
-	.foot__arrow-up,
+	/* .foot__arrow-up,
 	.foot__bunny,
 	.foot__twitter,
 	.foot__facebook,
 	.foot__send{
-		max-width: 75px;
-	}
+
+	} */
