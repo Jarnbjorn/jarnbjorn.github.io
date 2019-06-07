@@ -39,7 +39,6 @@ a{
 	display:flex;
 	justify-content: center;
 	margin-top: 1rem;
-	margin-bottom:-10px;
 }
 .header__logo{
 	max-width: 400px;
@@ -48,6 +47,8 @@ a{
 .main_wrap{
 	display:flex;
 	flex-direction: column;
+	background-color:#0a0911;
+	border-radius:15px;
 }
 
 /* Nav */
@@ -56,7 +57,7 @@ a{
 /* Footer */
 
 /* Media Queries */
-@media (min-width:1000px) {
+/* @media (min-width:1000px) {
 	.main_wrap{
 		flex-direction: row;
 	}
@@ -68,5 +69,5 @@ a{
 		flex:1 1 auto;
 
 	}
-}
+} */
 

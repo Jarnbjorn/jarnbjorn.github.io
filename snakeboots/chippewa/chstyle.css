@@ -1,0 +1,43 @@
+/* this style sheet is specifically for corrections within the chippewa file directory */
+
+blockquote,
+.dear{
+	text-align: left;
+	font-size: 1.2em;
+	line-height: 1.3em;
+	text-indent: 2em;
+}
+hr {
+	color: green
+}
+
+.tertiary img{
+	max-width: 200px;
+}
+.banner-wrap{
+	max-width:85%;
+	margin:auto;
+}
+.banner-wrap h3{
+	margin-top:-5px;
+}
+.inline-contact{
+	font-size: 1.2em;
+}
+.cali-alert{
+	box-shadow: 0 4px 8px 0 green;
+	transition: 0.3s;
+	padding:5px;
+	border-radius: 15px;
+}
+
+.col p{
+	padding-bottom: 10px;
+}
+
+@media (min-width:1000px){
+	.col {
+		flex: 1 50%;
+	}
+}
+/* Emmy is the cutest of all time */
