@@ -45,7 +45,8 @@ img {
 
 
 .header__logo {
-	max-width: 80%
+	max-width: 80%;
+	margin-top:10px;
 }
 
 .price {
@@ -139,7 +140,7 @@ ul {
 .footer a {
 	text-align: center;
 	text-transform: uppercase;
-	display: block;
+	display: inline-block;
 	padding: 7px 5px;
 	font-size: 1.2em
 }
@@ -192,9 +193,10 @@ ul {
 @media screen and (min-width:769px) {
 	.header,
 	.header__nav {
-			display: flex
+			display: flex;
+			margin: auto;
 	}
-	.header__nav {
+	.header {
 			flex-direction: column;
 			align-items: center;
 			width: 90%;
@@ -218,7 +220,7 @@ ul {
 	.footer__return {
 			flex: 1 100%
 	}
-	.footer__top-banner,
+
 	.footer__left-col,
 	.footer__right-col {
 			flex: 1 50%
@@ -233,7 +235,8 @@ ul {
 	.header__nav a {
 			font-size: 1.2em
 	}
-	.header__nav {
+	.header__nav,
+	.header {
 			flex-direction: row;
 			justify-content: space-between;
 			width: 90%
@@ -247,9 +250,9 @@ ul {
 			font-size: 1.8em
 	}
 	.main__card {
-			flex: 1 20%
+			flex: 1 15%
 	}
-	.footer__top-banner,
+
 	.footer__left-col,
 	.footer__right-col {
 			flex: 1 25%
